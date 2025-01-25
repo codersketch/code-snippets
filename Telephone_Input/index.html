@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telephone Input</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+
+    <!-- Internal TelephoneInput css-->
+    <link rel="stylesheet" href="assets/telephoneinput/telephoneinput.css">
+</head>
+
+<body>
+    <div>
+        <h2 class="card-title mb-1">Telephone Input</h2>
+        <p class="text-muted card-sub-title">A JavaScript plugin for entering and validating international telephone
+            numbers. It adds a flag dropdown to any input, detects the user's country, displays a relevant placeholder
+            and provides formatting/validation methods.</p>
+    </div>
+    <div class="input-group">
+        <input class="form-control" id="phone" name="phone" type="tel">
+        <span class="input-group-btn">
+            <button class="btn ripple btn-primary br-tl-0 br-bl-0" type="button">Submit</button>
+        </span>
+    </div>
+
+    <!-- load jquery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <!-- Internal TelephoneInput js-->
+    <script src="assets/telephoneinput/telephoneinput.js"></script>
+    <script src="assets/telephoneinput/inttelephoneinput.js"></script>
+
+</html>
